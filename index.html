@@ -11,11 +11,11 @@
     <p class="note">Fields marked with * are required.</p>
       <form>
         <label for="name">Name: *</label>
-        <input type="text" id="name" name="name" >
+        <input type="text" id="name" name="name" pattern ="\D\s/\g/A-Za-z">
         <br>
 
         <label for="name">Phone Number: *</label>
-        <input type="text" id="phone" name="phone" maxlength="11">
+        <input type="text" id="phone" name="phone" maxlength="11" pattern="\d">
         <br>
 
         <label for="name">Social Security #: *</label>
